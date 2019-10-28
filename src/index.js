@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 
 import LatestMovieReviewsContainer from './components/LatestMovieReviewsContainer';
 import SearchableMovieReviewsContainer from './components/SearchableMovieReviewsContainer';
@@ -9,5 +10,5 @@ ReactDOM.render(
     <SearchableMovieReviewsContainer />
     <LatestMovieReviewsContainer />
   </div>,
-  document.getElementById('root')
+  document.getElementById('global')
 );
